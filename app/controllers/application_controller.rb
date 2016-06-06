@@ -39,6 +39,9 @@ class ApplicationController < ActionController::Base
       false
     end
   end
+  
+  def something
+  end
 
   def yet_another_bad_method
     if params[:showtime]
