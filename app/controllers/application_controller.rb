@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  def new_thing
+    #nah fuck that
+  end
+
   def bad_method
     if params[:showtime]
       value = params[:six].to_i * params[:nine]
